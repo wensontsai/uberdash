@@ -3,8 +3,9 @@ $nav-title: #D19275;
 
 .nav {
 	background-color: $nav-background;
+	border: gray 1px solid;
 	border-radius: 15px;
-	margin: 2rem 0;
+	margin: 1rem 0;
 	padding: 1.5rem;
 	display: flex;
 	flex: 1 100%;

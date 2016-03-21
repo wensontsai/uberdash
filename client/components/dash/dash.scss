@@ -14,16 +14,6 @@
 	border: gray solid 1px;
 	margin: 0.5rem;
 	display: inline-block
-}w
-.display-name {
-	font-size: 1.8rem;
-	text-align: center;
-}
-.display-controls {
-	margin: 2rem 0;
-}
-.display-controls .btn {
-	margin: 0 1rem;
 }
 
 .map-view {
@@ -33,7 +23,6 @@
 	padding: 1rem;
 	-webkit-flex: 1;
 	flex: 3 auto;
-	margin: 1rem;
 } 
 .sidebar-view {
 	height: 450px;
@@ -41,7 +30,7 @@
 	border-radius: 10px;
 	padding: 1rem;
 	flex: 1 auto;
-	margin: 1rem;
+	margin-left: 1rem;
 }
 .footer-view {
 	border: gray solid 1px;
@@ -49,5 +38,5 @@
 	padding: 1rem;
 	height: 175px;
 	flex: 1 auto;
-	margin: 1rem;
+	margin-top: 1rem;
 }
