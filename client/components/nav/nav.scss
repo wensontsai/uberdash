@@ -3,7 +3,7 @@ $nav-title: #D19275;
 
 .nav {
 	background-color: $nav-background;
-	border-radius: 25px;
+	border-radius: 15px;
 	margin: 2rem 0;
 	padding: 1.5rem;
 	display: flex;
@@ -11,21 +11,27 @@ $nav-title: #D19275;
 }
 .nav-title > a,
 .nav-title {
-	font-size: 2.8rem;
+	font-size: 3.5rem;
 	color: $nav-title;
-	flex: 3;
+	margin: 0.5rem;
+	flex: 5;
+	/*font-family: 'Megrim';*/
+	/*font-family: 'Flamenco'; */
+	font-family: 'Monofett';
+	font-weight: 200;
+
 }
 .nav-title > a:hover{
 	text-decoration: none;
 }
 .nav-links {
-	float: right;
-	flex: 2;
+	display: inline-flex;
+	flex: 0.5;
+	align-items: center;
+	text-align: right;
+	/*justify-content: center;*/
 }
 .nav-links > a{
-	float: right;
 	padding: 1rem;
-	margin: 0 1rem;
-	display: table-cell;
-	vertical-align: middle;
+	margin: 0 0 0 1rem;
 }
